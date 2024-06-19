@@ -1,7 +1,7 @@
 # Propositional-Logic
 
 
-Task 1:
+# Task 1:
 Propositional logic, also known as sentential logic or propositional calculus, is a branch of formal
 logic that deals with propositions, which are statements that can either be true or false but not
 both. Propositional logic studies how these propositions can be combined using logical operators
@@ -26,31 +26,31 @@ https://ggc-discrete-math.github.io/logic.html
 
 ![image](https://github.com/rohit546/Propositional-Logic/assets/100420859/a9c96bb0-5186-4bac-b167-0c47d7a4372f)
 
-Task 2:
+# Task 2:
 Inference rules are the templates for generating valid arguments. Inference rules are applied to
 derive proofs in artificial intelligence, and the proof is a sequence of the conclusion that leads to
 the desired goal.
 Implement the inference rule to get a Conclusion from the truth table given in Task 1.
-a) Example 1:
+# a) Example 1:
 Statement 1: “The grass was wet this morning, and it didn’t rain last night” ➔ q ∧¬p
 Statement 2: “it didn’t rain last night”➔ ¬p
 Which infers that “The grass was not wet this morning”
-b) Example 2:
+# b) Example 2:
 Statement 1: "If I am sleepy then I go to bed" ➔ P→ Q
 Statement 2: "I do not go to the bed."➔ ~Q
 Conclusion: Which infers that "I am not sleepy" ➔ ?
-c) Example 3:
+# c) Example 3:
 Statement 1: I have a vanilla ice-cream. ➔ P
 Statement 2: I have Chocolate ice-cream. ➔ Q.
 Conclusion: Which infers that “I have vanilla or chocolate ice-cream” ➔ ?
 
-Task 3:
+# Task 3:
 Expression of Relations and Knowledge Representation
 a) Implement the expression of relations and the search for values which satisfy them,
 i.e. asks for a number x such that ‘x == z’ and ‘z == 10’
 i). If ‘a’ is equal to ‘b’ and ‘b’ is equal to 100
 What is the value of ‘a’?
-b) Implement a knowledge representation that stores data as facts that state relationships
+# b) Implement a knowledge representation that stores data as facts that state relationships
 between terms. For example, the parent relationship and uses it to state facts about who is a
 parent of whom within the specific family.
 • Fakhir is father of Usman
@@ -63,9 +63,9 @@ b. Children of Fakhir?
 c. Who is grandfather of Usman?
 
 
-d. Who is grandfather of Fakhir?
+# d. Who is grandfather of Fakhir?
 
-Note: You can use ‘kanren’ library for logic programming in python.
+# Note: You can use ‘kanren’ library for logic programming in python.
 Sample Example 1:
 from kanren import var, eq, run
 var1 = var()
@@ -81,7 +81,7 @@ facts(parent, ("Fakhir", "Usman"), ("Fakhir", "Rehan"), ("Noman", "Fakhir"), ("S
 "Noman"))
 print("The father of Usman is: ", run(1, var1, parent(var1, "Usman")))
 
-Task 4:
+# Task 4:
 Wumpus World (Proof by Resolution)
 Implement, a knowledge base and an inference engine for the Wumpus world. Firstly, create
 a knowledge base that stores the rules of the Wumpus world, i.e., pits, monsters, breeze, and
