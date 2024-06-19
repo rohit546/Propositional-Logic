@@ -70,7 +70,7 @@ Sample Example 1:
 from kanren import var, eq, run
 var1 = var()
 var2 = var()
-# It asks for `1` number, `x`, such that `x == 5`
+It asks for `1` number, `x`, such that `x == 5`
 print("The final value of var1 is: ", run(1, var1, eq(var1, var2), eq(var2, 5)))
 Sample Example 2:
 from kanren import Relation, facts, run, var
