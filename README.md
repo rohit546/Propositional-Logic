@@ -24,25 +24,7 @@ Note: For further information, check the “propositional logic” tutorial prov
 Gwinnett College
 https://ggc-discrete-math.github.io/logic.html
 
-Implement the following Truth Tables in python
-a) Table 1
-P q r ¬r q∨ ¬r ¬p ¬p∧( q∨¬r)
-T T T F T F F
-T T F T T F F
-T F T F F F F
-T F F T T F F
-F T T F T T T
-F T F T T T T
-F F T F F T F
-F F F T T T T
-
-b) Table 2
-P q p⇒q ¬q ¬p ¬q ⇒ ¬p (p⇒q) ⇔ (¬q ⇒ ¬p)
-T T T F F T T
-T F F T F F T
-F T T F T T T
-F F T T T T T
-
+![image](https://github.com/rohit546/Propositional-Logic/assets/100420859/a9c96bb0-5186-4bac-b167-0c47d7a4372f)
 
 Task 2:
 Inference rules are the templates for generating valid arguments. Inference rules are applied to
